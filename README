@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laman Peribadi Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .bio {
+            margin-bottom: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Selamat Datang ke Laman Peribadi Saya</h1>
+</header>
+
+<section>
+    <div class="bio">
+        <h2>Bio</h2>
+        <p>Saya seorang [profesi/kepakaran] yang berminat dalam [bidang/minat]. Laman ini dibangunkan untuk berkongsi sedikit tentang diri saya dan apa yang saya lakukan.</p>
+    </div>
+
+    <div class="projects">
+        <h2>Projek Terkini</h2>
+        <p>Saya sedang bekerja pada beberapa projek menarik termasuk [projek A] dan [projek B]. Nantikan kemas kini di ruangan ini.</p>
+    </div>
+
+    <div class="social-links">
+        <h2>Hubungi Saya</h2>
+        <p>Anda boleh berhubung dengan saya melalui platform berikut:</p>
+        <a href="#">LinkedIn</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">GitHub</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Laman Peribadi Saya. Semua Hakcipta Terpelihara.</p>
+</footer>
+
+</body>
+</html>
